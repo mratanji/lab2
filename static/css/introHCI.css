@@ -12,23 +12,40 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     font-size: 200%;
+     border: 10px solid;
+     border-color: #0E1724;
      padding: 20px;
+     background-color: #242424;
+}
+
+h4{
+     font-size: 3em;
 }
 
 .jumbotron {
      position: relative;
      background: none;
+     color: #FFFFFF;
 }
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     background: url("http://upload.wikimedia.org/wikipedia/commons/6/62/Berkeley-San_Francisco-Oakland--Sunset-Panorama.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;  
+     opacity: 0.7;
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
      position: absolute;
      z-index: -1;   
+}
+
+.container{
+     color: white;
+     text-align: center;
+     width: 525px;
 }
